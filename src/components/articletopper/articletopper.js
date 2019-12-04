@@ -1,7 +1,15 @@
 import React from "react";
+import "./articletopper.css";
 
 class Articletopper extends React.Component {
   render() {
+    var ArticleTopper = [];
+    ArticleTopper.defaultProps = {
+      twitter: "https://twitter.com/TeamTriBeam",
+      facebook: "https://www.facebook.com/groups/wightDBSCG/",
+      youtube: "https://www.youtube.com/channel/UCyntw1IKw5A3omZqd-CkHXw"
+    };
+
     return (
       <div className="articletopper">
         <div className="left-cell">
@@ -16,7 +24,7 @@ class Articletopper extends React.Component {
         </div>
         <div className="right-cell">
           <a
-            href="https://twitter.com/TeamTriBeam"
+            href={ArticleTopper.defaultProps.twitter}
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -27,7 +35,7 @@ class Articletopper extends React.Component {
             />
           </a>
           <a
-            href="https://www.facebook.com/groups/wightDBSCG/"
+            href={ArticleTopper.defaultProps.facebook}
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -38,7 +46,7 @@ class Articletopper extends React.Component {
             />
           </a>
           <a
-            href="https://www.youtube.com/channel/UCyntw1IKw5A3omZqd-CkHXw"
+            href={ArticleTopper.defaultProps.youtube}
             target="_blank"
             rel="noopener noreferrer"
           >

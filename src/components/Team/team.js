@@ -1,6 +1,7 @@
 import React from "react";
 import Articletopper from "../articletopper/articletopper";
 import Teamlist from "../teamlist/teamlist";
+import "./team.css";
 
 class Team extends React.Component {
   render() {
@@ -20,7 +21,7 @@ class Team extends React.Component {
 
         <hr style={{ borderColor: "#292929" }} />
 
-        <Articletopper title={"Jack Rawlings-Cawtheray"} />
+        <Articletopper title={"Jack Rawlings-Cawtheray"} twitter={"biscuits"} />
 
         <Teamlist
           image={require("../images/jack.jpg")}

@@ -1,5 +1,6 @@
 import React from "react";
 import Articletopper from "../articletopper/articletopper";
+import "./find.css";
 
 class Find extends React.Component {
   render() {

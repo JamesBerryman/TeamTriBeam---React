@@ -1,5 +1,6 @@
 import React from "react";
 import Articletopper from "../articletopper/articletopper";
+import "./home.css";
 
 class Home extends React.Component {
   render() {

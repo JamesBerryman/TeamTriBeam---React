@@ -1,0 +1,42 @@
+.articletopper {
+  max-width: 1000px !important;
+  border: 2px solid, black;
+  border-radius: 25px;
+  background-color: black;
+  color: darkorange;
+  margin-top: 50px;
+  font-size: 20;
+  display: table;
+  width: 100%;
+}
+
+/*SHARE BUTTONS*/
+.buttons {
+  height: 35px;
+  margin-right: 25px;
+  margin-top: 12px;
+}
+
+.left-cell {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.left-cell p {
+  display: inline-block;
+  margin-left: 0px;
+  vertical-align: middle;
+  padding-left: 20px;
+  font-size: 20px;
+}
+
+.left-cell > * {
+  vertical-align: middle;
+}
+
+.right-cell {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  float: right;
+}
