@@ -1,0 +1,269 @@
+body,
+html {
+  font-family: Arial;
+  background-image: url("../images/background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.header img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60;
+}
+
+.pageLinks {
+  text-align: center;
+  height: 50px;
+  font-size: 20px;
+}
+
+.dragonball {
+  height: 25px;
+  width: 25px;
+  margin-right: 5px;
+  vertical-align: middle;
+  margin-bottom: 3px;
+}
+
+.maincontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.introduction {
+  margin-top: 10px;
+  margin-bottom: 50px;
+  text-align: center;
+  border: 2px solid, black;
+  border-radius: 25px;
+  background-color: black;
+  padding: 20px;
+  color: darkorange;
+  max-width: 1000px;
+}
+
+.articletopper {
+  border: 2px solid, black;
+  border-radius: 25px;
+  background-color: black;
+  color: darkorange;
+  padding-left: 20px;
+  max-width: 1000px;
+  margin-top: 50px;
+  font-size: 20px;
+  display: table;
+  width: 100%;
+}
+
+.toparticle {
+  margin-top: 10px;
+  margin-bottom: 50px;
+  text-align: center;
+  border: 2px solid, black;
+  border-radius: 25px;
+  background-color: black;
+  padding: 20px;
+  color: darkorange;
+  max-width: 1000px;
+  clear: both;
+}
+
+.teamarticle {
+  margin-top: 10px;
+  margin-bottom: 50px;
+  border: 2px solid, black;
+  border-radius: 25px;
+  background-color: black;
+  padding: 20px;
+  color: darkorange;
+  max-width: 1000px;
+}
+
+.teamprofilepic {
+  height: 200px;
+  width: auto;
+  border-radius: 50%;
+  border: 5px solid darkorange;
+  margin: 10px auto 20px auto;
+  float: right;
+}
+
+.list {
+  line-height: 2;
+}
+
+.team {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.posted {
+  font-size: 10;
+  text-align: right;
+}
+
+.footer {
+  margin-top: 50px;
+  font-style: italic;
+  font-size: 12px;
+  text-align: center;
+  color: white;
+}
+
+/*SHARE BUTTONS*/
+.buttons {
+  height: 35px;
+  margin-right: 25px;
+  margin-top: 16px;
+}
+
+.left-cell {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.left-cell p {
+  display: inline-block;
+  margin-left: 0px;
+  vertical-align: middle;
+}
+
+.left-cell > * {
+  vertical-align: middle;
+}
+
+.right-cell {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  float: right;
+}
+
+.heroeswrapper {
+  align-content: center;
+  text-align: center;
+  display: inline-block;
+}
+
+.heroeswrapper img {
+  width: 60%;
+}
+
+a {
+  color: white;
+}
+
+/*GOOGLE MAP*/
+.mapouter {
+  position: relative;
+  text-align: right;
+  height: 300px;
+  width: 300px;
+  float: right;
+}
+
+.gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+  height: 300px;
+  width: 300px;
+}
+
+/*SLIDESHOW BOX*/
+* {
+  box-sizing: border-box;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  margin-top: 50px;
+  display: none;
+}
+
+.mySlides img {
+  width: 100%;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
