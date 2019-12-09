@@ -21,7 +21,10 @@ class Team extends React.Component {
 
         <hr style={{ borderColor: "#292929" }} />
 
-        <Articletopper title={"Jack Rawlings-Cawtheray"} twitter={"biscuits"} />
+        <Articletopper
+          title={"Jack Rawlings-Cawtheray"}
+          twitter={"https://twitter.com/CaptainRawCaw"}
+        />
 
         <Teamlist
           image={require("../images/jack.jpg")}
@@ -43,7 +46,12 @@ class Team extends React.Component {
           updated="14th November 2019"
         />
 
-        <Articletopper title={"James Berryman"} />
+        <Articletopper
+          title={"James Berryman"}
+          twitter="https://twitter.com/Ragonkai"
+          facebook=""
+          youtube="https://www.youtube.com/user/12agon"
+        />
 
         <Teamlist
           image={require("../images/james.jpg")}
@@ -65,7 +73,10 @@ class Team extends React.Component {
           updated="14th November 2019"
         />
 
-        <Articletopper title={"Kai Wade"} />
+        <Articletopper
+          title={"Kai Wade"}
+          twitter="https://twitter.com/KwadeKade"
+        />
         <Teamlist
           image={require("../images/kai.jpg")}
           bio="Sadly no longer with us, Kai left our neck of the woods to pursue an

@@ -31,6 +31,7 @@ class App extends Component {
           <div>
             <div className="first">{this.props.first}</div>
             <div className="second">{this.props.second}</div>
+            <div className="third">{this.props.third}</div>
           </div>
           <Router>
             <div className="centercontainer">
