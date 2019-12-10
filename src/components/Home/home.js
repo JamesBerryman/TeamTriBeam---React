@@ -30,15 +30,17 @@ class Home extends React.Component {
             kids who comes to our store, who not only got the Baby Jenemba SCR
             in his pre-release pack, but got the Dragonballs SCR in his box.{" "}
           </p>
-          <iframe
-            className="youTubeClip"
-            title="set8"
-            style={{ width: "100%px", height: "315px" }}
-            src="https://www.youtube.com/embed/FZLPPdSEeIU"
-            frameBorder={0}
-            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-            allowFullScreen
-          />
+          <div class="video-responsive">
+            <iframe
+              className="youTubeClip"
+              title="set8"
+              style={{ width: "420", height: "315" }}
+              src="https://www.youtube.com/embed/FZLPPdSEeIU"
+              frameBorder={0}
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            />
+          </div>
           <p className="posted">
             Posted on 25th November 2019. Uploaded to Youtube on 25th November
             2019.
@@ -51,15 +53,17 @@ class Home extends React.Component {
             In this video we cracked open a few boxes of Series 6 Destroyer
             Kings, Jack was lucky enough to get one of the SCR's.
           </p>
-          <iframe
-            className="youTubeClip"
-            title="set6"
-            style={{ width: "100%px", height: "315px" }}
-            src="https://www.youtube.com/embed/01L60KJPSF4"
-            frameBorder={0}
-            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-            allowFullScreen
-          />
+          <div class="video-responsive">
+            <iframe
+              className="youTubeClip"
+              title="set6"
+              style={{ width: "420", height: "315" }}
+              src="https://www.youtube.com/embed/01L60KJPSF4"
+              frameBorder={0}
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            />
+          </div>
           <p className="posted">
             Posted on 10th November 2019. Uploaded to Youtube on 10th April
             2019.
@@ -68,15 +72,17 @@ class Home extends React.Component {
         <Articletopper title="Namekians Vs Frieza Shenron" />
         <div className="toparticle">
           <p>In this video it's Namekians(Hayden) Vs Frieza Shenron(Jack)</p>
-          <iframe
-            className="youTubeClip"
-            title="namekiansvsfrieza"
-            style={{ width: "100%px", height: "315px" }}
-            src="https://www.youtube.com/embed/ZlxfOAXoG0A"
-            frameBorder={0}
-            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-            allowFullScreen
-          />
+          <div class="video-responsive">
+            <iframe
+              className="youTubeClip"
+              title="namekiansvsfrieza"
+              style={{ width: "420", height: "315" }}
+              src="https://www.youtube.com/embed/ZlxfOAXoG0A"
+              frameBorder={0}
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            />
+          </div>
           <p className="posted">
             Posted on 10th November 2019. Uploaded to Youtube on 16th January
             2019.

@@ -2,6 +2,9 @@ import React from "react";
 import "./articletopper.css";
 
 class Articletopper extends React.Component {
+  facebook() {
+    document.getElementsByClassName("facebook").style.visibility = "hidden";
+  }
   render() {
     return (
       <div className="articletopper">
@@ -17,6 +20,7 @@ class Articletopper extends React.Component {
         </div>
         <div className="right-cell">
           <a
+            className="twitter"
             href={this.props.twitter || "https://twitter.com/TeamTriBeam"}
             target="_blank"
             rel="noopener noreferrer"
@@ -28,6 +32,7 @@ class Articletopper extends React.Component {
             />
           </a>
           <a
+            className="facebook"
             href={
               this.props.facebook ||
               "https://www.facebook.com/groups/wightDBSCG/"
@@ -42,6 +47,7 @@ class Articletopper extends React.Component {
             />
           </a>
           <a
+            className="youtube"
             href={
               this.props.youtube ||
               "https://www.youtube.com/channel/UCyntw1IKw5A3omZqd-CkHXw"
