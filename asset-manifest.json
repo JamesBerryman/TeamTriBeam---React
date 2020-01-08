@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7377cf8f.chunk.css",
+    "main.js": "/static/js/main.2ec45be8.chunk.js",
+    "main.js.map": "/static/js/main.2ec45be8.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.d91dd2e0.js",
+    "runtime-main.js.map": "/static/js/runtime-main.d91dd2e0.js.map",
+    "static/css/2.0e8573d5.chunk.css": "/static/css/2.0e8573d5.chunk.css",
+    "static/js/2.cd4664ec.chunk.js": "/static/js/2.cd4664ec.chunk.js",
+    "static/js/2.cd4664ec.chunk.js.map": "/static/js/2.cd4664ec.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.f90731c9fda59f5e0131e6a7afc69438.js": "/precache-manifest.f90731c9fda59f5e0131e6a7afc69438.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.0e8573d5.chunk.css.map": "/static/css/2.0e8573d5.chunk.css.map",
+    "static/css/main.7377cf8f.chunk.css.map": "/static/css/main.7377cf8f.chunk.css.map",
+    "static/media/App.css": "/static/media/background.8422da2f.jpg",
+    "static/media/dragonball.png": "/static/media/dragonball.c3e3e55a.png",
+    "static/media/facebook.png": "/static/media/facebook.37372a48.png",
+    "static/media/heroes2.jpg": "/static/media/heroes2.556be59b.jpg",
+    "static/media/jack.jpg": "/static/media/jack.6a405f65.jpg",
+    "static/media/james.jpg": "/static/media/james.64a03d3f.jpg",
+    "static/media/kai.jpg": "/static/media/kai.5ccd60aa.jpg",
+    "static/media/logo.png": "/static/media/logo.c3841098.png",
+    "static/media/twitterimg.png": "/static/media/twitterimg.e41bfb7e.png",
+    "static/media/youtube.png": "/static/media/youtube.c88dff89.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d91dd2e0.js",
+    "static/css/2.0e8573d5.chunk.css",
+    "static/js/2.cd4664ec.chunk.js",
+    "static/css/main.7377cf8f.chunk.css",
+    "static/js/main.2ec45be8.chunk.js"
+  ]
+}
