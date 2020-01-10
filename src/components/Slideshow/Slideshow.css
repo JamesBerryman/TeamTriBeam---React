@@ -10,15 +10,12 @@
   height: 375px;
 }
 
-.each-fade {
-  display: flex;
-}
-
-.each-fade .image-container {
-  width: 75%;
-  overflow: hidden;
-}
-
-.each-fade .image-container img {
-  width: 100%;
+@media only screen and (max-width: 999px) {
+  .slide-container {
+    width: 100% !important;
+  }
+  .each-slide > div {
+    width: 100% !important;
+    height: 140px;
+  }
 }

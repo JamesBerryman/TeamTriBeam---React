@@ -43,3 +43,12 @@
   font-size: 10;
   text-align: right;
 }
+
+@media only screen and (max-width: 999px) {
+  .introduction {
+    max-width: 100%;
+  }
+  .teamarticle {
+    max-width: 100%;
+  }
+}

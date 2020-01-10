@@ -12,7 +12,7 @@ html {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 60;
+  width: 60%;
 }
 
 nav {
@@ -63,4 +63,23 @@ nav {
   font-size: 12px;
   text-align: center;
   color: white;
+}
+
+@media only screen and (max-width: 999px) {
+  .pagelinks li {
+    margin-right: 5px;
+    padding: 5px;
+  }
+  .maincontainer {
+    width: 100% !important;
+  }
+  .centercontainer {
+    width: 100%;
+  }
+  .header img {
+    width: 20;
+  }
+  .pagelinks {
+    margin-right: 20px;
+  }
 }

@@ -20,7 +20,6 @@
   padding: 20px;
   color: darkorange;
   max-width: 1000px;
-  clear: both;
 }
 
 .posted {
@@ -40,4 +39,16 @@
   height: 100%;
   width: 100%;
   position: absolute;
+}
+
+@media only screen and (max-width: 999px) {
+  .introduction {
+    max-width: 100%;
+  }
+  .toparticle {
+    max-width: 100%;
+  }
+  .home {
+    width: 100%;
+  }
 }
