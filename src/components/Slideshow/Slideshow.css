@@ -1,21 +1,22 @@
-.slide-container {
-  width: 1000px;
+.each-fade {
+  display: flex;
 }
 
-.each-slide > div {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-size: cover;
-  height: 375px;
+.each-fade .image-container {
+  width: 100%;
+  overflow: hidden;
+}
+
+.each-fade .image-container img {
+  width: 100%;
 }
 
 @media only screen and (max-width: 999px) {
   .slide-container {
     width: 100% !important;
   }
-  .each-slide > div {
+  .each-fade img {
     width: 100% !important;
-    height: 140px;
+    height: auto;
   }
 }
