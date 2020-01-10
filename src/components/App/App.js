@@ -95,7 +95,9 @@ class App extends Component {
               This site is still in devlopment, please be aware not all features
               may work as expected. Thanks for visiting! Website designed and
               created by James Berryman. See the{" "}
-              <a href="changelog.html">Changelog</a>
+              <a href="https://github.com/JamesBerryman/teamtribeamreact/blob/master/Changelog.txt">
+                Changelog
+              </a>
             </p>
           </div>
         </div>
