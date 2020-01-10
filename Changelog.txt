@@ -1,0 +1,15 @@
+Changelog for https://www.teamtribeam.co.uk
+
+10/01/2020 - V2.1 - Fixed Slideshow Height Issue on mobile and Pagelinks size on smaller devices, also completed Mobile Optimisation.
+08/01/2020 - V2.0 - Build Version of React version rolls out. 
+09/12/2019 - V1.2 - Removed YoutubeAsepect JS and replaced with CSS.
+04/12/2019 - V1.1 - Initial Commit of React version of site, added React Router for Pagelinks and Styled-Components for Hovertext.
+27/11/2019 - V1.0 - Updated Pagelinks, Fixed Dragonball Positioning in Team and Find Us Page, Update pages with Mobile support, Spelling fixes, fixed initial width of Youtube video's, and full mobile optimisation. 
+26/11/2019 - V1.0 - New video article posted.
+23/11/2019 - V1.0 - Meta tags, favicon icon and text changes.
+21/11/2019 - V1.0 - Fixed logo.
+20/11/2019 - V1.0 - Updated Slideshow Code.
+19/11/2019 - V1.0 - Version 1 Complete.
+14/11/2019 - V0.9 - Slideshow and Text Updates.
+13/11/2019 - V0.8 - Dragonball size fixed, Completed Find Us page.
+11/11/2019 - V0.7 - Initial Commit to Github, social media links added.
