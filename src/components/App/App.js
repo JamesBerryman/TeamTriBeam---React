@@ -1,9 +1,16 @@
 import React, { Component } from "react";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link,
+  Redirect
+} from "react-router-dom";
 import Team from "../Team/team";
 import Find from "../Find/find";
 import Slideshow from "../Slideshow/Slideshow";
 import Home from "../Home/home";
+import NotFound from "../NotFound.js";
 import styled from "styled-components";
 import "./App.css";
 
@@ -85,6 +92,8 @@ class App extends Component {
                   <Slideshow />
                   <Home />
                 </Route>
+                <Route path="/404" component={NotFound}></Route>
+                <Redirect to="/404" />
               </Switch>
             </div>
           </Router>
