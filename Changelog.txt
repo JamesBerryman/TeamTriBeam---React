@@ -1,6 +1,6 @@
 Changelog for https://www.teamtribeam.co.uk
 
-11/01/2020 - V2.2 - Added 404 Not Found page due to GH Pages not supporting React Router properly. 
+11/01/2020 - V2.2 - Added 404 Not Found page due to GH Pages not supporting React Router properly. Added Express and Webpack config and Server.js.
 10/01/2020 - V2.1 - Fixed Slideshow Height Issue on mobile and Pagelinks size on smaller devices, also completed Mobile Optimisation.
 08/01/2020 - V2.0 - Build Version of React version rolls out. 
 09/12/2019 - V1.2 - Removed YoutubeAsepect JS and replaced with CSS.

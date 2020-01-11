@@ -92,7 +92,9 @@ class App extends Component {
                   <Slideshow />
                   <Home />
                 </Route>
-                <Route path="/404" component={NotFound}></Route>
+                <Route path="/404" component={NotFound}>
+                  <NotFound />
+                </Route>
                 <Redirect to="/404" />
               </Switch>
             </div>
