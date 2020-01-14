@@ -13,7 +13,7 @@ class App extends Component {
   render() {
     const HoverLink = ({ className, children }) => (
       // eslint-disable-next-line jsx-a11y/anchor-is-valid
-      <a className={className}>{children}</a>
+      <span className={className}>{children}</span>
     );
     const HoverText = styled(HoverLink)`
       color: white;
@@ -33,66 +33,55 @@ class App extends Component {
           <Router>
             <div className="links">
               <nav>
-                <ul className="pagelinks">
-                  <li>
-                    <img
-                      className="dragonball"
-                      alt=""
-                      src={require("../images/dragonball.png")}
-                    />
-                    <Link
-                      style={{ textDecoration: "none" }}
+                <Link
+                      style={{ textDecoration: "none", display: "inline-block", padding: "5px" }}
                       to="/"
                       exact="true"
                     >
+                    <img
+                      className="dragonball"
+                      alt=""
+                      src={require("../images/dragonball.png")}
+                    />
+                    
                       <HoverText>Home</HoverText>
                     </Link>
-                  </li>
-
-                  <li>
+                  <Link style={{ textDecoration: "none", display: "inline-block", padding: "5px" }} to="/team">
                     <img
                       className="dragonball"
                       alt=""
                       src={require("../images/dragonball.png")}
                     />
-                    <Link style={{ textDecoration: "none" }} to="/team">
                       <HoverText>Team</HoverText>
                     </Link>
-                  </li>
-
-                  <li>
+                           
+                  <Link style={{ textDecoration: "none", display: "inline-block", padding: "5px" }} to="/find">
                     <img
                       className="dragonball"
                       alt=""
                       src={require("../images/dragonball.png")}
                     />
-                    <Link style={{ textDecoration: "none" }} to="/find">
+                    
                       <HoverText>Find Us</HoverText>
                     </Link>
-                  </li>
-
-                  <li>
+                           
+                  <Link style={{ textDecoration: "none", display: "inline-block", padding: "5px" }} to="/decklists">
                     <img
                       className="dragonball"
                       alt=""
                       src={require("../images/dragonball.png")}
                     />
-                    <Link style={{ textDecoration: "none" }} to="/decklists">
                       <HoverText>Decklists</HoverText>
                     </Link>
-                  </li>
-
-                  <li>
+                           
+                   <Link style={{ textDecoration: "none", display: "inline-block", padding: "5px" }} to="/events"> 
                     <img
                       className="dragonball"
                       alt=""
                       src={require("../images/dragonball.png")}
                     />
-                    <Link style={{ textDecoration: "none" }} to="/events">
                       <HoverText>Events</HoverText>
                     </Link>
-                  </li>
-                </ul>
               </nav>
             </div>
 
