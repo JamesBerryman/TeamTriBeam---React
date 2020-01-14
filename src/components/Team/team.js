@@ -25,7 +25,6 @@ class Team extends React.Component {
           title={"Jack Rawlings-Cawtheray"}
           twitter={"https://twitter.com/CaptainRawCaw"}
         />
-
         <Teamlist
           image={require("../images/jack.jpg")}
           bio="Meet the Captain of the team and man responsible for our shop to
@@ -42,7 +41,6 @@ class Team extends React.Component {
           randomdeck="Hercule"
           topcomp="Finalist at UK DBSCG Finals"
           decklist="AOD Dende"
-          decklistlink="https://www.dbs-decks.com/?fbclid=IwAR0A9TsyCtXdSq6YDcrHUbqXZLtAJwvJ9T5YufuY-8NbQ3DKZ11_OGWvX-0#!/deck/219148"
           updated="14th November 2019"
         />
 
@@ -63,13 +61,13 @@ class Team extends React.Component {
           that deck. I can't wait to see where the game goes and am currently
           looking forward to the launch of Set 8, as I plan to build a Bulma
           deck!'"
+          currentdeck="Blocker Bulma"
           favcardlink="https://shop.tcgplayer.com/dragon-ball-super-ccg/union-force/ultimate%20force%20ssb%20vegito"
           favcard="Ultimate Force SSB Vegito"
           fundeck="U6 Cabba"
           randomdeck="Set 3 Vegito"
           topcomp="Finalist at UK DBSCG Finals"
           decklist="Shenron Ramp"
-          decklistlink="https://www.dbs-decks.com/#!/deck/237631"
           updated="14th November 2019"
         />
 
@@ -77,6 +75,7 @@ class Team extends React.Component {
           title={"Kai Wade"}
           twitter="https://twitter.com/KwadeKade"
         />
+
         <Teamlist
           image={require("../images/kai.jpg")}
           bio="Sadly no longer with us, Kai left our neck of the woods to pursue an
@@ -92,7 +91,6 @@ class Team extends React.Component {
           randomdeck="Dr Myuu"
           topcomp="Winner at local events"
           decklist="Mono Red Burn"
-          decklistlink="https://www.dbs-decks.com/?fbclid=IwAR3qx8fIwjIYYlAPi57_HHlvjkOeZ_eE2LYAQepyCfjg_AdkhCCJgDiQtfE#!/deck/244614"
           updated="14th November 2019"
         />
       </div>

@@ -1,3 +1,7 @@
+.slide-container {
+  padding-top: 30px;
+}
+
 .each-fade {
   display: flex;
 }

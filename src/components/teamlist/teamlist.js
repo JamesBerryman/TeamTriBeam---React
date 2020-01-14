@@ -34,16 +34,6 @@ class Teamlist extends React.Component {
             <strong>Top accomplistment: </strong>
             {this.props.topcomp}
           </li>
-          <li>
-            <strong>Deck List: </strong>
-            <a
-              href={this.props.decklistlink}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              {this.props.decklist}
-            </a>
-          </li>
         </ul>
         <p className="posted">Updated on {this.props.updated}.</p>
       </div>

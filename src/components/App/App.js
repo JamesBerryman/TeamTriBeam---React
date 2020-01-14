@@ -1,16 +1,11 @@
 import React, { Component } from "react";
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Link,
-  Redirect
-} from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import Team from "../Team/team";
 import Find from "../Find/find";
 import Slideshow from "../Slideshow/Slideshow";
 import Home from "../Home/home";
-import NotFound from "../NotFound.js";
+import Decklists from "../Decklists/desklists";
+import Events from "../Events/events";
 import styled from "styled-components";
 import "./App.css";
 
@@ -35,13 +30,8 @@ class App extends Component {
               <img src={require("../images/logo.png")} alt="logo" />
             </a>
           </div>
-          <div>
-            <div className="first">{this.props.first}</div>
-            <div className="second">{this.props.second}</div>
-            <div className="third">{this.props.third}</div>
-          </div>
           <Router>
-            <div className="centercontainer">
+            <div className="links">
               <nav>
                 <ul className="pagelinks">
                   <li>
@@ -58,6 +48,7 @@ class App extends Component {
                       <HoverText>Home</HoverText>
                     </Link>
                   </li>
+
                   <li>
                     <img
                       className="dragonball"
@@ -68,6 +59,7 @@ class App extends Component {
                       <HoverText>Team</HoverText>
                     </Link>
                   </li>
+
                   <li>
                     <img
                       className="dragonball"
@@ -78,28 +70,53 @@ class App extends Component {
                       <HoverText>Find Us</HoverText>
                     </Link>
                   </li>
+
+                  <li>
+                    <img
+                      className="dragonball"
+                      alt=""
+                      src={require("../images/dragonball.png")}
+                    />
+                    <Link style={{ textDecoration: "none" }} to="/decklists">
+                      <HoverText>Decklists</HoverText>
+                    </Link>
+                  </li>
+
+                  <li>
+                    <img
+                      className="dragonball"
+                      alt=""
+                      src={require("../images/dragonball.png")}
+                    />
+                    <Link style={{ textDecoration: "none" }} to="/events">
+                      <HoverText>Events</HoverText>
+                    </Link>
+                  </li>
                 </ul>
               </nav>
-
-              <Switch>
-                <Route path="/find" component={Find}>
-                  <Find />
-                </Route>
-                <Route path="/team" component={Team}>
-                  <Team />
-                </Route>
-                <Route path="/" components={{ first: Slideshow, second: Home }}>
-                  <Slideshow />
-                  <Home />
-                </Route>
-                <Route path="/404" component={NotFound}>
-                  <NotFound />
-                </Route>
-                <Redirect to="/404" />
-              </Switch>
             </div>
-          </Router>
 
+            {/* SET THE ROUTES FOR CHANGING PAGES */}
+            <Switch>
+              <Route path="/find" component={Find}>
+                <Find />
+              </Route>
+              <Route path="/team" component={Team}>
+                <Team />
+              </Route>
+              <Route path="/decklists" component={Decklists}>
+                <Decklists />
+              </Route>
+              <Route path="/events" component={Events}>
+                <Events />
+              </Route>
+              <Route path="/" components={{ first: Slideshow, second: Home }}>
+                <Slideshow />
+                <Home />
+              </Route>
+            </Switch>
+          </Router>
+          {/* FOOTER */}
           <div className="footer">
             <hr style={{ borderColor: "#292929" }} />
             <p>

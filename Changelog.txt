@@ -1,6 +1,7 @@
 Changelog for https://www.teamtribeam.co.uk
 
-13/01/2020 - V2.4 - Added fix for / links and refreshing not working properly.
+13/01/2020 - V2.5 - 2 new pages! Decklists and Events. Decklists has a sortable table with links to various Deck's, the slideshow now links to the Decklists page. The Events page has a Coming Soon notice currently. 
+13/01/2020 - V2.4 - Added fix for / links and refreshing not working properly. 
 12/01/2020 - V2.3 - Added Favicon Pack.
 11/01/2020 - V2.2 - Added 404 Not Found page due to GH Pages not supporting React Router properly. Added Express and Webpack config and Server.js.
 10/01/2020 - V2.1 - Fixed Slideshow Height Issue on mobile and Pagelinks size on smaller devices, also completed Mobile Optimisation.

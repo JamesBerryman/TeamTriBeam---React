@@ -27,8 +27,8 @@ class Home extends React.Component {
             Set 8 recently came out in the UK, in our store on pre-release night
             we bought about 6 boxes in total and unboxed them all together. I
             was lucky and got a God Pack, but the real luck went to one of the
-            kids who comes to our store, who not only got the Baby Jenemba SCR
-            in his pre-release pack, but got the Dragonballs SCR in his box.{" "}
+            kids who comes to our store, who not only got the Baby Janemba SCR
+            in his pre-release pack, but got the Dragonballs SCR in his box.
           </p>
           <div class="video-responsive">
             <iframe
@@ -69,8 +69,8 @@ class Home extends React.Component {
             2019.
           </p>
         </div>
-        <Articletopper title="Namekians Vs Frieza Shenron" />
-        <div className="toparticle">
+        <Articletopper title="Namekians Vs Frieza Shenron" id="#jack" />
+        <div className="toparticle" id="#jack">
           <p>In this video it's Namekians(Hayden) Vs Frieza Shenron(Jack)</p>
           <div class="video-responsive">
             <iframe

@@ -1,7 +1,7 @@
 import React from "react";
 import "./Slideshow.css";
 import { Fade } from "react-slideshow-image";
-import { HashLink as Link } from "react-router-hash-link";
+import { Link } from "react-router-dom";
 
 const fadeImages = [
   "/images/AODdende.png",
@@ -26,21 +26,21 @@ const Slideshow = () => {
       <Fade {...fadeProperties}>
         <div className="each-fade">
           <div className="image-container">
-            <Link to="/team">
+            <Link to="/decklists">
               <img alt="" src={fadeImages[0]} />
             </Link>
           </div>
         </div>
         <div className="each-fade">
           <div className="image-container">
-            <Link to="/team">
+            <Link to="/decklists">
               <img alt="" src={fadeImages[1]} />
             </Link>
           </div>
         </div>
         <div className="each-fade">
           <div className="image-container">
-            <Link to="/team">
+            <Link to="/decklists">
               <img alt="" src={fadeImages[2]} />
             </Link>
           </div>
