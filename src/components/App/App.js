@@ -33,55 +33,51 @@ class App extends Component {
           <Router>
             <div className="links">
               <nav>
-                <Link
-                      style={{ textDecoration: "none", display: "inline-block", padding: "5px" }}
-                      to="/"
-                      exact="true"
-                    >
-                    <img
-                      className="dragonball"
-                      alt=""
-                      src={require("../images/dragonball.png")}
-                    />
-                    
-                      <HoverText>Home</HoverText>
-                    </Link>
-                  <Link style={{ textDecoration: "none", display: "inline-block", padding: "5px" }} to="/team">
-                    <img
-                      className="dragonball"
-                      alt=""
-                      src={require("../images/dragonball.png")}
-                    />
-                      <HoverText>Team</HoverText>
-                    </Link>
-                           
-                  <Link style={{ textDecoration: "none", display: "inline-block", padding: "5px" }} to="/find">
-                    <img
-                      className="dragonball"
-                      alt=""
-                      src={require("../images/dragonball.png")}
-                    />
-                    
-                      <HoverText>Find Us</HoverText>
-                    </Link>
-                           
-                  <Link style={{ textDecoration: "none", display: "inline-block", padding: "5px" }} to="/decklists">
-                    <img
-                      className="dragonball"
-                      alt=""
-                      src={require("../images/dragonball.png")}
-                    />
-                      <HoverText>Decklists</HoverText>
-                    </Link>
-                           
-                   <Link style={{ textDecoration: "none", display: "inline-block", padding: "5px" }} to="/events"> 
-                    <img
-                      className="dragonball"
-                      alt=""
-                      src={require("../images/dragonball.png")}
-                    />
-                      <HoverText>Events</HoverText>
-                    </Link>
+                <Link to="/" exact="true">
+                  <img
+                    className="dragonball"
+                    alt=""
+                    src={require("../images/dragonball.png")}
+                  />
+
+                  <HoverText>Home</HoverText>
+                </Link>
+                <Link to="/team">
+                  <img
+                    className="dragonball"
+                    alt=""
+                    src={require("../images/dragonball.png")}
+                  />
+                  <HoverText>Team</HoverText>
+                </Link>
+
+                <Link to="/find">
+                  <img
+                    className="dragonball"
+                    alt=""
+                    src={require("../images/dragonball.png")}
+                  />
+
+                  <HoverText>Find Us</HoverText>
+                </Link>
+
+                <Link to="/decklists">
+                  <img
+                    className="dragonball"
+                    alt=""
+                    src={require("../images/dragonball.png")}
+                  />
+                  <HoverText>Decklists</HoverText>
+                </Link>
+
+                <Link to="/events">
+                  <img
+                    className="dragonball"
+                    alt=""
+                    src={require("../images/dragonball.png")}
+                  />
+                  <HoverText>Events</HoverText>
+                </Link>
               </nav>
             </div>
 
