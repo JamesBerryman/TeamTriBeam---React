@@ -10,49 +10,55 @@
   max-width: 1000px;
 }
 
-.teamarticle {
+.eventarticle {
   margin-top: 10px;
   margin-bottom: 50px;
+  text-align: center;
   border: 2px solid, black;
   border-radius: 25px;
   background-color: black;
   padding: 20px;
   color: darkorange;
   max-width: 1000px;
+  height: 500px;
 }
 
-.teamprofilepic {
-  height: 200px;
-  width: auto;
-  border-radius: 50%;
-  border: 5px solid darkorange;
-  margin: 10px auto 20px auto;
+.points {
+  display: flex;
   float: right;
-}
-
-.list {
+  text-align: left;
   line-height: 2;
 }
 
-.team {
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.posted {
-  font-size: 10;
-  text-align: right;
+.eventarticle img {
+  width: 50%;
+  margin-left: 40px;
 }
 
 @media only screen and (max-width: 999px) {
-  .introduction {
+  #container {
+    height: 100px;
+    width: 100px;
+    align-content: center;
+    justify-content: center;
+  }
+
+  .eventarticle {
+    height: auto;
     max-width: 100%;
   }
-  .teamarticle {
-    max-width: 100%;
+
+  .points {
+    align-content: center;
+    float: none;
   }
-  .teamimage img {
-    width: 30%;
-    height: 30%;
+
+  .eventarticle img {
+    width: 80%;
+    margin-left: 0px;
+    align-content: center;
+  }
+  .events {
+    max-width: 100%;
   }
 }

@@ -21,7 +21,7 @@ class Home extends React.Component {
         </div>
         <hr style={{ borderColor: "#292929" }} />
         {/* Start of Articles - TOP POST */}
-        <Articletopper title="Set 8 Multi-Box Unboxing with SCR pull!" />
+        <Articletopper title="Set 8 Unboxing!" />
         <div className="toparticle">
           <p>
             Set 8 recently came out in the UK, in our store on pre-release night
@@ -47,7 +47,7 @@ class Home extends React.Component {
           </p>
         </div>
         {/* END OF TOP POST - COPY/PASTE UPWARDS TO ADD NEW POST*/}
-        <Articletopper title="Series 6 Destroyer Kings Unboxing with SCR pull!" />
+        <Articletopper title="Set 6 Unboxing!" />
         <div className="toparticle">
           <p>
             In this video we cracked open a few boxes of Series 6 Destroyer
@@ -69,7 +69,7 @@ class Home extends React.Component {
             2019.
           </p>
         </div>
-        <Articletopper title="Namekians Vs Frieza Shenron" id="#jack" />
+        <Articletopper title="Hayden Vs Jack" id="#jack" />
         <div className="toparticle" id="#jack">
           <p>In this video it's Namekians(Hayden) Vs Frieza Shenron(Jack)</p>
           <div class="video-responsive">

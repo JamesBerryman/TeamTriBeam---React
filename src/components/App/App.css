@@ -43,6 +43,10 @@ html {
   margin-bottom: 4px;
 }
 
+.list {
+  line-height: 2;
+}
+
 .maincontainer {
   display: flex;
   justify-content: center;
