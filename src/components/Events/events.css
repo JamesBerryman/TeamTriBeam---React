@@ -61,4 +61,14 @@
   .events {
     max-width: 100%;
   }
+
+  .recharts-surface {
+    width: 50%;
+    height: 50%;
+    float: left;
+  }
+  .recharts-default-legend {
+    width: 50%;
+    height: 50%;
+  }
 }
