@@ -66,9 +66,14 @@
     width: 50%;
     height: 50%;
     float: left;
+    overflow: hidden;
   }
-  .recharts-default-legend {
+  .recharts-legend-item li {
+    overflow: hidden;
+  }
+
+  .recharts-legend-item svg {
     width: 50%;
-    height: 50%;
+    height: auto;
   }
 }
