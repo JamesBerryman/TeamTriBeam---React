@@ -64,8 +64,8 @@
 
   .recharts-surface {
     float: left;
-    overflow: hidden;
   }
+<<<<<<< HEAD
 
   .recharts-wrapper {
     width: 100% !important;
@@ -77,5 +77,10 @@
 
   .recharts-legend-item svg {
     width: 50%;
+=======
+  .recharts-default-legend {
+    width: 50%;
+    height: 50%;
+>>>>>>> parent of 7dc5a74... Changes to Mobile CSS Table
   }
 }
