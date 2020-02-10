@@ -38,8 +38,8 @@ class Events extends React.Component {
             <ol>
               <li>11th Febuary 2020 - Series 9 Pre-Release</li>
               <li>18th Febuary 2020 - Series 8 Tournament</li>
-              <li>29th Febuary 2020 - UK Regionals Salford</li>
               <li>17th March - Store Championships</li>
+              <li>COMING SOON</li>
               <li>COMING SOON</li>
               <li>COMING SOON</li>
               <li>COMING SOON</li>
