@@ -36,10 +36,10 @@ class Events extends React.Component {
           </p>
           <div className="points">
             <ol>
+              <li>11th Febuary 2020 - Series 9 Pre-Release</li>
               <li>18th Febuary 2020 - Series 8 Tournament</li>
+              <li>29th Febuary 2020 - UK Regionals Salford</li>
               <li>17th March - Store Championships</li>
-              <li>COMING SOON</li>
-              <li>COMING SOON</li>
               <li>COMING SOON</li>
               <li>COMING SOON</li>
               <li>COMING SOON</li>
@@ -89,7 +89,7 @@ class Events extends React.Component {
             This is a Standard Constructed tournament 4 Rounds of Swiss followed
             by cut to Top 4 or Top 8 depending on the number of players (to be
             confirmed on the day). Swiss rounds will be played Best of Three
-            with a 60 minute time limit.> We intend to run as close to this time
+            with a 60 minute time limit. We intend to run as close to this time
             time as possible: - Click{" "}
             <a
               href="https://www.eventbrite.co.uk/e/gaming-vs-cancer-2020-spring-tickets-85114524835?fbclid=IwAR1-40XYPy7yG0cza4KkagmQsMKASVwNGBUVqS7eYRe219SBFwPcTbAfmZQ"
