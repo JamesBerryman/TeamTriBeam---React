@@ -35,14 +35,12 @@
   margin-left: 40px;
 }
 
-@media only screen and (max-width: 999px) {
-  #container {
-    height: 100px;
-    width: 100px;
-    align-content: center;
-    justify-content: center;
-  }
+.barchart {
+  width: 65%;
+  height: 75%;
+}
 
+@media only screen and (max-width: 999px) {
   .eventarticle {
     height: auto;
     max-width: 100%;
@@ -62,25 +60,8 @@
     max-width: 100%;
   }
 
-  .recharts-surface {
-    float: left;
-  }
-<<<<<<< HEAD
-
-  .recharts-wrapper {
-    width: 100% !important;
-  }
-
-  .recharts-legend-item li {
-    overflow: hidden;
-  }
-
-  .recharts-legend-item svg {
-    width: 50%;
-=======
-  .recharts-default-legend {
-    width: 50%;
-    height: 50%;
->>>>>>> parent of 7dc5a74... Changes to Mobile CSS Table
+  .barchart {
+    width: 100%;
+    height: 100%;
   }
 }

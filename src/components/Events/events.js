@@ -8,7 +8,8 @@ import {
   YAxis,
   CartesianGrid,
   Tooltip,
-  Legend
+  Legend,
+  ResponsiveContainer
 } from "recharts";
 import data from "./data";
 
@@ -48,33 +49,35 @@ class Events extends React.Component {
             </ol>
           </div>
           <div className="barchart">
-            <BarChart
-              width={600}
-              height={300}
-              data={data}
-              margin={{
-                top: 20,
-                right: 30,
-                left: 20,
-                bottom: 5
-              }}
-            >
-              <CartesianGrid strokeDasharray="3 3" />
-              <YAxis />
-              <XAxis dataKey="name" />
-              <Tooltip active={false} />
-              <Legend />
-              <Bar dataKey="1" stackId="a" fill="#53bafe" />
-              <Bar dataKey="2" stackId="a" fill="#eb6a9b" />
-              <Bar dataKey="3" stackId="a" fill="#ffd500" />
-              <Bar dataKey="4" stackId="a" fill="#1dd63f" />
-              <Bar dataKey="5" stackId="a" fill="#f9843f" />
-              <Bar dataKey="6" stackId="a" fill="#c21c47" />
-              <Bar dataKey="7" stackId="a" fill="#910cfa" />
-              <Bar dataKey="8" stackId="a" fill="#1e0ca2" />
-              <Bar dataKey="9" stackId="a" fill="#1ef5eb" />
-              <Bar dataKey="10" stackId="a" fill="#fac1eb" />
-            </BarChart>
+            <ResponsiveContainer width="100%" height="100%">
+              <BarChart
+                width={600}
+                height={300}
+                data={data}
+                margin={{
+                  top: 20,
+                  right: 30,
+                  left: 20,
+                  bottom: 5
+                }}
+              >
+                <CartesianGrid strokeDasharray="3 3" />
+                <YAxis />
+                <XAxis dataKey="name" />
+                <Tooltip active={false} />
+                <Legend />
+                <Bar dataKey="1" stackId="a" fill="#53bafe" />
+                <Bar dataKey="2" stackId="a" fill="#eb6a9b" />
+                <Bar dataKey="3" stackId="a" fill="#ffd500" />
+                <Bar dataKey="4" stackId="a" fill="#1dd63f" />
+                <Bar dataKey="5" stackId="a" fill="#f9843f" />
+                <Bar dataKey="6" stackId="a" fill="#c21c47" />
+                <Bar dataKey="7" stackId="a" fill="#910cfa" />
+                <Bar dataKey="8" stackId="a" fill="#1e0ca2" />
+                <Bar dataKey="9" stackId="a" fill="#1ef5eb" />
+                <Bar dataKey="10" stackId="a" fill="#fac1eb" />
+              </BarChart>
+            </ResponsiveContainer>
           </div>
         </div>
 
