@@ -1,19 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.de63488d.chunk.css",
-    "main.js": "/static/js/main.94ef6725.chunk.js",
-    "main.js.map": "/static/js/main.94ef6725.chunk.js.map",
+    "main.css": "/static/css/main.871a5e5f.chunk.css",
+    "main.js": "/static/js/main.1febc5e7.chunk.js",
+    "main.js.map": "/static/js/main.1febc5e7.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.7daf73e5.js",
     "runtime-main.js.map": "/static/js/runtime-main.7daf73e5.js.map",
     "static/css/2.9768be7d.chunk.css": "/static/css/2.9768be7d.chunk.css",
-    "static/js/2.e4258f9e.chunk.js": "/static/js/2.e4258f9e.chunk.js",
-    "static/js/2.e4258f9e.chunk.js.map": "/static/js/2.e4258f9e.chunk.js.map",
+    "static/js/2.f7b98944.chunk.js": "/static/js/2.f7b98944.chunk.js",
+    "static/js/2.f7b98944.chunk.js.map": "/static/js/2.f7b98944.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.6cf21d3fd8c1c79fa4d37e999e3a2b40.js": "/precache-manifest.6cf21d3fd8c1c79fa4d37e999e3a2b40.js",
+    "precache-manifest.7bd2fe5f01aeb4c418eaabd4d80fe0a4.js": "/precache-manifest.7bd2fe5f01aeb4c418eaabd4d80fe0a4.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.9768be7d.chunk.css.map": "/static/css/2.9768be7d.chunk.css.map",
-    "static/css/main.de63488d.chunk.css.map": "/static/css/main.de63488d.chunk.css.map",
-    "static/js/2.e4258f9e.chunk.js.LICENSE": "/static/js/2.e4258f9e.chunk.js.LICENSE",
+    "static/css/main.871a5e5f.chunk.css.map": "/static/css/main.871a5e5f.chunk.css.map",
+    "static/js/2.f7b98944.chunk.js.LICENSE": "/static/js/2.f7b98944.chunk.js.LICENSE",
+    "static/media/1802Jack.jpg": "/static/media/1802Jack.ae9b0fb1.jpg",
+    "static/media/1802James.jpg": "/static/media/1802James.c99a770e.jpg",
+    "static/media/1802Liam.jpg": "/static/media/1802Liam.92d0bf8c.jpg",
+    "static/media/1802Neil.jpg": "/static/media/1802Neil.4b93a012.jpg",
     "static/media/App.css": "/static/media/background.8422da2f.jpg",
     "static/media/dragonball.png": "/static/media/dragonball.c3e3e55a.png",
     "static/media/facebook.png": "/static/media/facebook.37372a48.png",
@@ -29,8 +33,8 @@
   "entrypoints": [
     "static/js/runtime-main.7daf73e5.js",
     "static/css/2.9768be7d.chunk.css",
-    "static/js/2.e4258f9e.chunk.js",
-    "static/css/main.de63488d.chunk.css",
-    "static/js/main.94ef6725.chunk.js"
+    "static/js/2.f7b98944.chunk.js",
+    "static/css/main.871a5e5f.chunk.css",
+    "static/js/main.1febc5e7.chunk.js"
   ]
 }
