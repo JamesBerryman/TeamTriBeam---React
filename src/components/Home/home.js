@@ -21,6 +21,28 @@ class Home extends React.Component {
         </div>
         <hr style={{ borderColor: "#292929" }} />
         {/* Start of Articles - TOP POST */}
+        <Articletopper title="Local Event" />
+        <div className="toparticle">
+          <p>
+            Tonight we had our Series 8 Store event, it's a bit late considering
+            Set 9 just came out, but it was a good opportunity for us to test
+            our Series 9 brand new decks, especially as we are preparing for the
+            UK Regionals. Below are the results and some pictures showing Leader
+            and top 3 cards used in that deck.
+          </p>
+          <div className="pics">
+            <li>1st Place: Jack with his U7 R/B Invoker deck</li>
+            <img src={require("./articlepics/1802Jack.jpg")} alt="" />
+            <li>2nd Place: Neil with his R/B Cooler deck</li>
+            <img src={require("./articlepics/1802Neil.jpg")} alt="" />
+            <li>3rd Place: Liam with his R/B Cooler deck </li>
+            <img src={require("./articlepics/1802Liam.jpg")} alt="" />
+            <li>4th Place: James with his Successor Cell G/Y deck.</li>
+            <img src={require("./articlepics/1802James.jpg")} alt="" />
+          </div>
+          <p className="posted">Posted on 18th Febuary 2020.</p>
+        </div>
+        {/* END OF TOP POST - COPY/PASTE UPWARDS TO ADD NEW POST*/}
         <Articletopper title="Set 8 Unboxing!" />
         <div className="toparticle">
           <p>
