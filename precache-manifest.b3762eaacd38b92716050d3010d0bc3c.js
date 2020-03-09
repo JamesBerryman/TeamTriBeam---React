@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9351f7e7abae80789c8036009e028578",
+    "revision": "344fe80bdfbc93e61df1405b427cdd38",
     "url": "/index.html"
   },
   {
-    "revision": "fbfaf34f71a63d771564",
+    "revision": "f545ea8ea9f23c8b557b",
     "url": "/static/css/2.9768be7d.chunk.css"
   },
   {
-    "revision": "1cb6d73b82e58d285a05",
-    "url": "/static/css/main.871a5e5f.chunk.css"
+    "revision": "4367c4231965240ca453",
+    "url": "/static/css/main.3070ca08.chunk.css"
   },
   {
-    "revision": "fbfaf34f71a63d771564",
-    "url": "/static/js/2.f7b98944.chunk.js"
+    "revision": "f545ea8ea9f23c8b557b",
+    "url": "/static/js/2.987ce02b.chunk.js"
   },
   {
     "revision": "c4f1a76309d4b26918582585b85018fc",
-    "url": "/static/js/2.f7b98944.chunk.js.LICENSE"
+    "url": "/static/js/2.987ce02b.chunk.js.LICENSE"
   },
   {
-    "revision": "1cb6d73b82e58d285a05",
-    "url": "/static/js/main.1febc5e7.chunk.js"
+    "revision": "4367c4231965240ca453",
+    "url": "/static/js/main.1b58aec6.chunk.js"
   },
   {
     "revision": "d2a1378d7fb58540b5ef",
@@ -78,6 +78,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "c38410983921e3b8c02d760c9dc395f8",
     "url": "/static/media/logo.c3841098.png"
+  },
+  {
+    "revision": "f94d8f3d06577e20156e59355fe7b870",
+    "url": "/static/media/round8.f94d8f3d.jpg"
+  },
+  {
+    "revision": "c6e775861497c6edcb97bb15259db2ef",
+    "url": "/static/media/teamwars.c6e77586.jpg"
   },
   {
     "revision": "e41bfb7e933698bdf363aab5741ebcd3",

@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.871a5e5f.chunk.css",
-    "main.js": "/static/js/main.1febc5e7.chunk.js",
-    "main.js.map": "/static/js/main.1febc5e7.chunk.js.map",
+    "main.css": "/static/css/main.3070ca08.chunk.css",
+    "main.js": "/static/js/main.1b58aec6.chunk.js",
+    "main.js.map": "/static/js/main.1b58aec6.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.7daf73e5.js",
     "runtime-main.js.map": "/static/js/runtime-main.7daf73e5.js.map",
     "static/css/2.9768be7d.chunk.css": "/static/css/2.9768be7d.chunk.css",
-    "static/js/2.f7b98944.chunk.js": "/static/js/2.f7b98944.chunk.js",
-    "static/js/2.f7b98944.chunk.js.map": "/static/js/2.f7b98944.chunk.js.map",
+    "static/js/2.987ce02b.chunk.js": "/static/js/2.987ce02b.chunk.js",
+    "static/js/2.987ce02b.chunk.js.map": "/static/js/2.987ce02b.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.7bd2fe5f01aeb4c418eaabd4d80fe0a4.js": "/precache-manifest.7bd2fe5f01aeb4c418eaabd4d80fe0a4.js",
+    "precache-manifest.b3762eaacd38b92716050d3010d0bc3c.js": "/precache-manifest.b3762eaacd38b92716050d3010d0bc3c.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.9768be7d.chunk.css.map": "/static/css/2.9768be7d.chunk.css.map",
-    "static/css/main.871a5e5f.chunk.css.map": "/static/css/main.871a5e5f.chunk.css.map",
-    "static/js/2.f7b98944.chunk.js.LICENSE": "/static/js/2.f7b98944.chunk.js.LICENSE",
+    "static/css/main.3070ca08.chunk.css.map": "/static/css/main.3070ca08.chunk.css.map",
+    "static/js/2.987ce02b.chunk.js.LICENSE": "/static/js/2.987ce02b.chunk.js.LICENSE",
     "static/media/1802Jack.jpg": "/static/media/1802Jack.ae9b0fb1.jpg",
     "static/media/1802James.jpg": "/static/media/1802James.c99a770e.jpg",
     "static/media/1802Liam.jpg": "/static/media/1802Liam.92d0bf8c.jpg",
@@ -27,14 +27,16 @@
     "static/media/james.jpg": "/static/media/james.64a03d3f.jpg",
     "static/media/kai.jpg": "/static/media/kai.5ccd60aa.jpg",
     "static/media/logo.png": "/static/media/logo.c3841098.png",
+    "static/media/round8.jpg": "/static/media/round8.f94d8f3d.jpg",
+    "static/media/teamwars.jpg": "/static/media/teamwars.c6e77586.jpg",
     "static/media/twitterimg.png": "/static/media/twitterimg.e41bfb7e.png",
     "static/media/youtube.png": "/static/media/youtube.c88dff89.png"
   },
   "entrypoints": [
     "static/js/runtime-main.7daf73e5.js",
     "static/css/2.9768be7d.chunk.css",
-    "static/js/2.f7b98944.chunk.js",
-    "static/css/main.871a5e5f.chunk.css",
-    "static/js/main.1febc5e7.chunk.js"
+    "static/js/2.987ce02b.chunk.js",
+    "static/css/main.3070ca08.chunk.css",
+    "static/js/main.1b58aec6.chunk.js"
   ]
 }
