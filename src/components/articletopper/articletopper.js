@@ -61,6 +61,20 @@ class Articletopper extends React.Component {
               src={require("../images/youtube.png")}
             />
           </a>
+          <a
+            className="instagram"
+            href={
+              this.props.instagram || "https://www.instagram.com/teamtribeam/"
+            }
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              className="buttons"
+              alt=""
+              src={require("../images/instagram.png")}
+            />
+          </a>
         </div>
       </div>
     );

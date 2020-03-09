@@ -53,6 +53,10 @@
     width: 20%;
   }
   .right-cell {
-    width: 167px;
+    margin-top: 5px;
+    width: 150px;
+  }
+  .right-cell img {
+    width: 15%;
   }
 }
