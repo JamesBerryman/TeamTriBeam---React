@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.3070ca08.chunk.css",
-    "main.js": "/static/js/main.1b58aec6.chunk.js",
-    "main.js.map": "/static/js/main.1b58aec6.chunk.js.map",
+    "main.css": "/static/css/main.858e28be.chunk.css",
+    "main.js": "/static/js/main.70322164.chunk.js",
+    "main.js.map": "/static/js/main.70322164.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.7daf73e5.js",
     "runtime-main.js.map": "/static/js/runtime-main.7daf73e5.js.map",
     "static/css/2.9768be7d.chunk.css": "/static/css/2.9768be7d.chunk.css",
-    "static/js/2.987ce02b.chunk.js": "/static/js/2.987ce02b.chunk.js",
-    "static/js/2.987ce02b.chunk.js.map": "/static/js/2.987ce02b.chunk.js.map",
+    "static/js/2.e9d5bc6a.chunk.js": "/static/js/2.e9d5bc6a.chunk.js",
+    "static/js/2.e9d5bc6a.chunk.js.map": "/static/js/2.e9d5bc6a.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.b3762eaacd38b92716050d3010d0bc3c.js": "/precache-manifest.b3762eaacd38b92716050d3010d0bc3c.js",
+    "precache-manifest.093e414fb1408699820ea77c23e63c40.js": "/precache-manifest.093e414fb1408699820ea77c23e63c40.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.9768be7d.chunk.css.map": "/static/css/2.9768be7d.chunk.css.map",
-    "static/css/main.3070ca08.chunk.css.map": "/static/css/main.3070ca08.chunk.css.map",
-    "static/js/2.987ce02b.chunk.js.LICENSE": "/static/js/2.987ce02b.chunk.js.LICENSE",
+    "static/css/main.858e28be.chunk.css.map": "/static/css/main.858e28be.chunk.css.map",
+    "static/js/2.e9d5bc6a.chunk.js.LICENSE": "/static/js/2.e9d5bc6a.chunk.js.LICENSE",
     "static/media/1802Jack.jpg": "/static/media/1802Jack.ae9b0fb1.jpg",
     "static/media/1802James.jpg": "/static/media/1802James.c99a770e.jpg",
     "static/media/1802Liam.jpg": "/static/media/1802Liam.92d0bf8c.jpg",
@@ -23,6 +23,7 @@
     "static/media/facebook.png": "/static/media/facebook.37372a48.png",
     "static/media/gvc.png": "/static/media/gvc.26c96d78.png",
     "static/media/heroes2.jpg": "/static/media/heroes2.556be59b.jpg",
+    "static/media/instagram.png": "/static/media/instagram.468d752e.png",
     "static/media/jack.jpg": "/static/media/jack.6a405f65.jpg",
     "static/media/james.jpg": "/static/media/james.64a03d3f.jpg",
     "static/media/kai.jpg": "/static/media/kai.5ccd60aa.jpg",
@@ -35,8 +36,8 @@
   "entrypoints": [
     "static/js/runtime-main.7daf73e5.js",
     "static/css/2.9768be7d.chunk.css",
-    "static/js/2.987ce02b.chunk.js",
-    "static/css/main.3070ca08.chunk.css",
-    "static/js/main.1b58aec6.chunk.js"
+    "static/js/2.e9d5bc6a.chunk.js",
+    "static/css/main.858e28be.chunk.css",
+    "static/js/main.70322164.chunk.js"
   ]
 }
