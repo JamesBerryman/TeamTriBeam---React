@@ -27,7 +27,7 @@ class Events extends React.Component {
           </p>
         </div>
         <hr style={{ borderColor: "#292929" }} />
-        <Articletopper title="2020 Events " />
+        <Articletopper title="2020 Events " anchorName="2020Events" />
         <div className="eventarticle">
           <h1>2020 Local Events!</h1>
           <p>

@@ -42,7 +42,8 @@
 }
 
 .pics img {
-  width: 50%;
+  width: 40%;
+  vertical-align: middle;
 }
 
 @media only screen and (max-width: 999px) {

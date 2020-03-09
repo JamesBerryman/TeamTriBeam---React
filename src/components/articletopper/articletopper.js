@@ -7,7 +7,7 @@ class Articletopper extends React.Component {
   }
   render() {
     return (
-      <div className="articletopper">
+      <div className="articletopper" id={this.props.anchorName}>
         <div className="left-cell">
           <p>
             <img

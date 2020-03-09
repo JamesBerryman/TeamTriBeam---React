@@ -21,8 +21,52 @@ class Home extends React.Component {
         </div>
         <hr style={{ borderColor: "#292929" }} />
         {/* Start of Articles - TOP POST */}
+        <Articletopper title="Salford 2020" />
+        <div className="toparticle" id="Salford2020">
+          <p>
+            Recently Team Tri Beam went to Salford 2020, the UK Regionals! In
+            the line up was our Team Captain Jack playing U7 Invoker, Myself
+            playing G/Y Cell, and both Liam's playing SurgeKu and Broly Surge.
+            We all did pretty well for a small time store. We all had ups and
+            downs, unfortunately none of made it to even top 64, Jack was
+            closest at 77. We were all pretty close points wise, in fact Jack
+            and I even ended up going against each other in the final round!
+          </p>
+          <p>
+            <strong>Day 1:</strong> For this article I'm just going to talk
+            about my matches. My first 2 rounds I lost, against Jiren and
+            Piccolo. Then the next 2 I won, against Baby Vegeta and SurgeKu,
+            then I drew in a mirror match against another Cell, then won my next
+            match against U7, at this point they put up the totals so far and I
+            was ranked highest in our group at 90. Unfortunately my next game
+            was against another Piccolo, which I lost, and then as mentioned
+            before my final round against Jack, U7, I tested a lot against Jack,
+            he had a lot of answers to my stuff, and knew exactly how I played,
+            I couldn't have asked for a better final round though, and had a
+            great match!
+          </p>
+
+          <p>
+            <strong>Day 2:</strong> We decided to do Team Wars on Sunday, as
+            there was 4 of us, the Liam playing Broly decided not to play. I
+            decided to play Buu on this day and that was probably a big mistake,
+            pretty much all my games were against Aggro decks that wrecked me.
+            Fortunately Jack and Liam had a lot better luck winning matches, in
+            the end we placed 11th out of 18 teams, however we had to same
+            amount of points as 6th-10th place, just our win record was lower
+            (Partially because of me!). Despite this we all had a really good
+            time, was great to play alongside my team mates and Team Tri Beam
+            made a good first debut at Team Wars!
+          </p>
+          <div className="pics">
+            <img src={require("./articlepics/round8.jpg")} alt="" />
+            <img src={require("./articlepics/teamwars.jpg")} alt="" />
+          </div>
+          <p className="posted">Posted on 9th March 2020.</p>
+        </div>
+        {/* END OF TOP POST - COPY/PASTE UPWARDS TO ADD NEW POST*/}
         <Articletopper title="Local Event" />
-        <div className="toparticle">
+        <div className="toparticle" id="LocalEvent">
           <p>
             Tonight we had our Series 8 Store event, it's a bit late considering
             Set 9 just came out, but it was a good opportunity for us to test
@@ -30,19 +74,19 @@ class Home extends React.Component {
             UK Regionals. Below are the results and some pictures showing Leader
             and top 3 cards used in that deck.
           </p>
+          <li>1st Place: Jack with his U7 R/B Invoker deck</li>
+          <li>2nd Place: Neil with his R/B Cooler deck</li>
+          <li>3rd Place: Liam with his R/B Cooler deck </li>
+          <li>4th Place: James with his Successor Cell G/Y deck.</li>
+          <br></br>
           <div className="pics">
-            <li>1st Place: Jack with his U7 R/B Invoker deck</li>
             <img src={require("./articlepics/1802Jack.jpg")} alt="" />
-            <li>2nd Place: Neil with his R/B Cooler deck</li>
             <img src={require("./articlepics/1802Neil.jpg")} alt="" />
-            <li>3rd Place: Liam with his R/B Cooler deck </li>
             <img src={require("./articlepics/1802Liam.jpg")} alt="" />
-            <li>4th Place: James with his Successor Cell G/Y deck.</li>
             <img src={require("./articlepics/1802James.jpg")} alt="" />
           </div>
           <p className="posted">Posted on 18th Febuary 2020.</p>
         </div>
-        {/* END OF TOP POST - COPY/PASTE UPWARDS TO ADD NEW POST*/}
         <Articletopper title="Set 8 Unboxing!" />
         <div className="toparticle">
           <p>
@@ -68,7 +112,7 @@ class Home extends React.Component {
             2019.
           </p>
         </div>
-        {/* END OF TOP POST - COPY/PASTE UPWARDS TO ADD NEW POST*/}
+
         <Articletopper title="Set 6 Unboxing!" />
         <div className="toparticle">
           <p>

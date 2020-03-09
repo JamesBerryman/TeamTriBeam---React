@@ -67,6 +67,22 @@ const data = [
         DBS Decks
       </a>
     )
+  },
+  {
+    id: 5,
+    deckName: "R/B Cooler",
+    createdBy: "Neil",
+    date: "20/02/20",
+    set: 9,
+    link: (
+      <a
+        href="http://www.dbs-decks.com/?fbclid=IwAR3mcK0_S5jlu-F1EmTKgv_abx05HWmpbpXhSCEaSILRR6Dzp-UablBBNZs#!/deck/277429"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        DBS Decks
+      </a>
+    )
   }
 ];
 const columns = [
