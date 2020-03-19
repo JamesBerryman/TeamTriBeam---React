@@ -1,5 +1,6 @@
 Changelog for https://www.teamtribeam.co.uk
 
+19/03/2020 - V2.8 - Optimised Event page for Mobile. GVS Event Cancelled. Updated Data for latest events, added Decklists. New Articles. 
 16/01/2020 - V2.6 - Added 2 sections to Events page, Locals and GvC info. Added Table for seeing players event points for the year so far, optimised mobile CSS on some pages. 
 13/01/2020 - V2.5 - 2 new pages! Decklists and Events. Decklists has a sortable table with links to various Deck's, the slideshow now links to the Decklists page. The Events page has a Coming Soon notice currently. 
 13/01/2020 - V2.4 - Added fix for / links and refreshing not working properly. 

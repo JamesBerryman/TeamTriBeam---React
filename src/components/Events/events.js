@@ -83,7 +83,7 @@ class Events extends React.Component {
 
         <Articletopper title="Gaming Vs Cancer" />
         <div className="eventarticle">
-          <h1>Sunday 22nd March 2020</h1>
+          <h1>CANCELLED - Sunday 22nd March 2020</h1>
           <h1>@ Garden Court, University of Southampton</h1>
           <p>
             This is a Standard Constructed tournament 4 Rounds of Swiss followed
