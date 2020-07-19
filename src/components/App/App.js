@@ -18,7 +18,7 @@ class App extends Component {
     const HoverText = styled(HoverLink)`
       color: white;
       :hover {
-        color: black;
+        color: orange;
         cursor: pointer;
       }
     `;

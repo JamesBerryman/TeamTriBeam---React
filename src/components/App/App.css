@@ -68,6 +68,7 @@ html {
 }
 
 @media only screen and (max-width: 999px) {
+
   .links {
     margin-right: 4px;
     padding: 2px;

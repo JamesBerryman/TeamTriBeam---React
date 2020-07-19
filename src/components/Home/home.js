@@ -22,7 +22,7 @@ class Home extends React.Component {
         <hr style={{ borderColor: "#292929" }} />
 
  {/* Start of Articles - TOP POST */}
-        <Articletopper title="Rise of the Unison Warrior" />
+        <Articletopper title="Set 10 Unboxing" />
         <div className="toparticle" id="Set10">
 
           <p>So there hasn't been much TTB activity lately due to the COVID-19 situation. Our store events haven't been happening and probably won't for a while. In the meantime the team is still in contact and have even been playing games on Untap testing out decks. Set 10, Rise of the Unison Warrior came out recently, and although we won't be able to play using the cards for a while, it was nice to open some packs, I decided to record my unboxing, which you can see below.</p>
