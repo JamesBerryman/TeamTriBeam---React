@@ -20,7 +20,20 @@ class Home extends React.Component {
           </p>
         </div>
         <hr style={{ borderColor: "#292929" }} />
-        {/* Start of Articles - TOP POST */}
+
+ {/* Start of Articles - TOP POST */}
+        <Articletopper title="Rise of the Unison Warrior" />
+        <div className="toparticle" id="Set10">
+
+          <p>So there hasn't been much TTB activity lately due to the COVID-19 situation. Our store events haven't been happening and probably won't for a while. In the meantime the team is still in contact and have even been playing games on Untap testing out decks. Set 10, Rise of the Unison Warrior came out recently, and although we won't be able to play using the cards for a while, it was nice to open some packs, I decided to record my unboxing, which you can see below.</p>
+          <div class="video-responsive">
+            <iframe width="560" title="set10" height="315" src="https://www.youtube.com/embed/RymRbWOiHOg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+          <p className="posted">Posted on 19th July 2020.</p>
+        </div>
+        {/* END OF TOP POST - COPY/PASTE UPWARDS TO ADD NEW POST*/}
+
+
         <Articletopper title="Salford 2020" />
         <div className="toparticle" id="Salford2020">
           <p>
@@ -64,7 +77,7 @@ class Home extends React.Component {
           </div>
           <p className="posted">Posted on 9th March 2020.</p>
         </div>
-        {/* END OF TOP POST - COPY/PASTE UPWARDS TO ADD NEW POST*/}
+
         <Articletopper title="Local Event" />
         <div className="toparticle" id="LocalEvent">
           <p>

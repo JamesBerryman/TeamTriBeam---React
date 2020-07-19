@@ -27,7 +27,7 @@ class App extends Component {
         <div className="centercontainer">
           <div className="header">
             <a href="/">
-              <img src={require("../images/logo.png")} alt="logo" />
+              <img src={require("../images/logo2.png")} alt="logo" />
             </a>
           </div>
           <Router>
