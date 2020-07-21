@@ -4,9 +4,13 @@ import { Fade } from "react-slideshow-image";
 import { Link } from "react-router-dom";
 
 const fadeImages = [
+  "/images/SlideshowHeroes.png",
   "/images/AODdende.png",
+  "/images/SlideshowTeam.png",
   "/images/Yamcha.png",
+  "/images/SlideshowEvents.png",
   "/images/ShenronRamp.png"
+  
 ];
 
 const fadeProperties = {
@@ -26,7 +30,7 @@ const Slideshow = () => {
       <Fade {...fadeProperties}>
         <div className="each-fade">
           <div className="image-container">
-            <Link to="/decklists">
+            <Link to="/find">
               <img alt="" src={fadeImages[0]} />
             </Link>
           </div>
@@ -40,8 +44,29 @@ const Slideshow = () => {
         </div>
         <div className="each-fade">
           <div className="image-container">
-            <Link to="/decklists">
+            <Link to="/team">
               <img alt="" src={fadeImages[2]} />
+            </Link>
+          </div>
+        </div>
+        <div className="each-fade">
+          <div className="image-container">
+            <Link to="/decklists">
+              <img alt="" src={fadeImages[3]} />
+            </Link>
+          </div>
+        </div>
+        <div className="each-fade">
+          <div className="image-container">
+            <Link to="/events">
+              <img alt="" src={fadeImages[4]} />
+            </Link>
+          </div>
+        </div>
+        <div className="each-fade">
+          <div className="image-container">
+            <Link to="/decklists">
+              <img alt="" src={fadeImages[5]} />
             </Link>
           </div>
         </div>
