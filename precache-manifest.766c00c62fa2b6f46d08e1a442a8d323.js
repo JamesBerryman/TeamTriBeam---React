@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5daf36b5c2c6ee63d50cd3f929c5bbb2",
+    "revision": "04b660d07bd277dc5e66eb89c50778a6",
     "url": "/index.html"
   },
   {
-    "revision": "c97918e76f02b6683da2",
-    "url": "/static/css/main.57b4e1ec.chunk.css"
+    "revision": "6a632209fb3fc8f7cc05",
+    "url": "/static/css/main.32203ffe.chunk.css"
   },
   {
     "revision": "83732746600ed0be85c6",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.5eff7a3d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c97918e76f02b6683da2",
+    "revision": "6a632209fb3fc8f7cc05",
     "url": "/static/js/main.4a369ba3.chunk.js"
   },
   {
@@ -44,8 +44,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/TTBWallpaper.1e976302.jpg"
   },
   {
-    "revision": "2acacbf4ec58e65ac2a575e636db6525",
-    "url": "/static/media/TTBWallpaperMobile.2acacbf4.jpg"
+    "revision": "bb3eedc1b7c9e5a6793ad1845a2aacc0",
+    "url": "/static/media/background.bb3eedc1.png"
   },
   {
     "revision": "c3e3e55ac77eabb124e8774da4696a06",
