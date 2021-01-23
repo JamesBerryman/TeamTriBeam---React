@@ -1,6 +1,7 @@
 Changelog for https://www.teamtribeam.co.uk
 
 
+23/01/2021 - V3.2 - Added 2021 Events and concluded 2020 Events. Changed Decklists from using React component to HTML table, amended broken deck links to unavailable. Various text updates across site.
 21/07/2020 - V3.1 - Made 3 new Slideshow panels linking to pages, updated existing slideshow images with enw logo design.
 19/07/2020 - V3.0 - Updated Logo Graphics and Background image. 
 19/03/2020 - V2.8 - Optimised Event page for Mobile. GVS Event Cancelled. Updated Data for latest events, added Decklists. New Articles. 

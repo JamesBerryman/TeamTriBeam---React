@@ -1,117 +1,8 @@
 import React, { Component } from "react";
-import DataTable from "react-data-table-component";
 import "../Home/home.css";
 import Articletopper from "../articletopper/articletopper";
+import "./decklists.css";
 
-const data = [
-  {
-    id: 1,
-    deckName: "Bulma Blocker",
-    createdBy: "James",
-    date: "08/11/2019",
-    set: 8,
-    link: (
-      <a
-        href="https://www.dbs-decks.com/#!/deck/237631"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        DBS Decks
-      </a>
-    )
-  },
-  {
-    id: 2,
-    deckName: "Shenron Ramp",
-    createdBy: "James",
-    date: "24/10/2019",
-    set: 7,
-    link: (
-      <a
-        href="https://www.dbs-decks.com/#!/deck/237631"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        DBS Decks
-      </a>
-    )
-  },
-  {
-    id: 3,
-    deckName: "AOD Dende",
-    createdBy: "Jack",
-    date: "26/08/2019",
-    set: 6,
-    link: (
-      <a
-        href="https://www.dbs-decks.com/?fbclid=IwAR0A9TsyCtXdSq6YDcrHUbqXZLtAJwvJ9T5YufuY-8NbQ3DKZ11_OGWvX-0#!/deck/219148"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        DBS Decks
-      </a>
-    )
-  },
-  {
-    id: 4,
-    deckName: "Mono Red Burn",
-    createdBy: "Kai",
-    date: "19/11/2019",
-    set: 7,
-    link: (
-      <a
-        href="https://www.dbs-decks.com/?fbclid=IwAR3qx8fIwjIYYlAPi57_HHlvjkOeZ_eE2LYAQepyCfjg_AdkhCCJgDiQtfE#!/deck/244614"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        DBS Decks
-      </a>
-    )
-  },
-  {
-    id: 5,
-    deckName: "R/B Cooler",
-    createdBy: "Neil",
-    date: "20/02/20",
-    set: 9,
-    link: (
-      <a
-        href="http://www.dbs-decks.com/?fbclid=IwAR3mcK0_S5jlu-F1EmTKgv_abx05HWmpbpXhSCEaSILRR6Dzp-UablBBNZs#!/deck/277429"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        DBS Decks
-      </a>
-    )
-  }
-];
-const columns = [
-  {
-    name: "Deck Name",
-    selector: "deckName",
-    sortable: true
-  },
-  {
-    name: "Created By",
-    selector: "createdBy",
-    sortable: true
-  },
-  {
-    name: "Date Created",
-    selector: "date",
-    sortable: false
-  },
-  {
-    name: "Set",
-    selector: "set",
-    sortable: true
-  },
-  {
-    name: "Link",
-    selector: "link",
-    sortable: false
-  }
-];
 
 class Decklists extends Component {
   render() {
@@ -120,23 +11,52 @@ class Decklists extends Component {
         <Articletopper title="Decklists" />
         <div className="introduction">
           <p>
-            Welcome to our Decklist page! Here is a collection of decklists we
-            have made. Some of which are used in our store tournaments, not
-            everyone does these online, a lot of people tend to write them out
-            on the day, personally, I find it easier. In the table below, you
-            can sort by person, date, and even the set they were made for. Click
-            the name of of the deck you wish to see to view it.
+            Welcome to our Decklist page! Unfortunately due to updates on the decklist sites our links stopped working as all the decklists got wiped. As soon as we start working on decklists again for events, they will be posted here. 
           </p>
         </div>
 
-        <div className="toparticle">
-          <DataTable
-            theme="dark"
-            pagination="true"
-            columns={columns}
-            data={data}
-          />
-        </div>
+      <div className="toparticle">
+      <table className="table">
+        <tr>
+    <th>Deckname</th>
+    <th>Created by:</th>
+    <th>Date:</th>
+    <th>Link:</th>
+         </tr>
+      <tr>
+    <td>Bulma Blocker</td>
+    <td>James</td>
+    <td>08/11/2019</td>
+    <td>UNAVAILABLE</td>
+      </tr>
+
+        <tr>
+    <td>AOD Dende</td>
+    <td>Jack</td>
+    <td>26/08/2019</td>
+    <td>UNAVAILABLE</td>
+  </tr>
+  <tr>
+    <td>Shenron Ramp</td>
+    <td>James</td>
+    <td>24/10/2019</td>
+    <td>UNAVAILABLE</td>
+  </tr>
+  <tr>
+    <td>Mono Red Burn</td>
+    <td>Kai</td>
+    <td>19/11/2019</td>
+    <td>UNAVAILABLE</td>
+  </tr>
+  <tr>
+    <td>R/B Cooler</td>
+    <td>Neil</td>
+    <td>20/02/2020</td>
+    <td>UNAVAILABLE</td>
+  </tr>
+        </table>
+      </div>
+       
       </div>
     );
   }

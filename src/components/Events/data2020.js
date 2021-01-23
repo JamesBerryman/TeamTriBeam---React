@@ -1,4 +1,4 @@
-export const data = [
+export const data2020 = [
   {
     name: "JB",
     //James
@@ -141,4 +141,4 @@ export const data = [
   }
 ];
 
-export default data;
+export default data2020;
