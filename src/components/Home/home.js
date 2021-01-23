@@ -21,7 +21,28 @@ class Home extends React.Component {
         </div>
         <hr style={{ borderColor: "#292929" }} />
 
- {/* Start of Articles - TOP POST */}
+        {/* Start of Articles - TOP POST */}
+        <Articletopper title="Set 12 Unboxing" />
+        <div className="toparticle" id="Set12">
+
+          <p>All of us at Team Tri Beam wish you a Happy New Year! Set 12 is here, unfortunately with another Lockdown in progress we once again have been unable to play much during these times. As restrictions started to lift last year we managed to have a couple of home based games but it seems it's still going to be a while before we return to store for our weekly matches. In the meantime we are still buying plenty of product to keep us busy, and we plan to have some Webcam based games soon, enjoy my unboxing of Set 12 below! </p>
+          <div class="video-responsive">
+            <iframe width="560" height="315" title="set12" src="https://www.youtube.com/embed/k_erQSRwr5E" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+          <p className="posted">Posted on 22nd January 2021</p>
+        </div>
+        {/* END OF TOP POST - COPY/PASTE UPWARDS TO ADD NEW POST*/}
+
+        <Articletopper title="Set 11 Unboxing" />
+        <div className="toparticle" id="Set11">
+
+          <p></p>
+          <div class="video-responsive">
+            <iframe width="560" height="315" title="set11" src="https://www.youtube.com/embed/yJDZckt2iPY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+          <p className="posted">Posted on 10th October 2020</p>
+        </div>
+
         <Articletopper title="Set 10 Unboxing" />
         <div className="toparticle" id="Set10">
 
@@ -31,7 +52,6 @@ class Home extends React.Component {
           </div>
           <p className="posted">Posted on 19th July 2020.</p>
         </div>
-        {/* END OF TOP POST - COPY/PASTE UPWARDS TO ADD NEW POST*/}
 
 
         <Articletopper title="Salford 2020" />
